@@ -1,0 +1,67 @@
+
+.fw-custom{
+    font-weight: 600;
+}
+.fw-color{
+    color: #918C8C;
+}
+.bg{
+    background-color: #F1F1F1;
+}
+a span {
+    width: 35px;
+    display: block;
+    background: #2524248a !important;
+    height: 2px;
+    left: 3px;
+    top: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Proloadr part start  */
+.preloader-wrapper {
+    background: #ffffffe3;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 150;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.preloader-wrapper.opacity-0{
+    opacity: 0;
+}
+.preloader-wrapper > .preloader {
+    position: absolute;
+    min-width: 50%; /* image-width of loader */
+    min-height: 53%; /* image-height of loader */
+    box-sizing: border-box;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    padding-top: 148px; /* 128px image-height of loader + 20px margin */
+    text-align: center;
+}
+
+
+
+/* Proloadr part end  */
